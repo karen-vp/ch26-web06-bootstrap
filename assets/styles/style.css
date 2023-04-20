@@ -1,0 +1,24 @@
+/* div{
+    border: 5px solid black;
+    margin-bottom: 4px;
+} */
+
+
+
+.demo-content{
+    padding: 15px;
+    background-color: #dbdfe5;
+}
+
+.bg-alt{
+    background-color: #abb1b8;
+}
+
+.main-content{
+    min-height: 230px;
+}
+
+.sidebar-content{
+    min-height: 100px;
+    margin-bottom: 30px;
+}
