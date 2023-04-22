@@ -1,5 +1,3 @@
-// Creacion de la instancia de la clase Router()
-const ROUTER = new Router(PATHS);
 
 const changeColorToRed = (color)=>{
     const paragraph = document.body.querySelector('#name');
