@@ -195,7 +195,19 @@ const PATHS = {
     },
     myname: {
         path: '/myname',
-        template: `<h1 id="nombre">Hola amig@</h1>
-        <button onclick="">Cambiar nombre</button>`
+        template: `
+        <div class="container text-center my-4">
+            <div class="row my-4">
+                <div class="col-12">
+                    <h1 id="nombre">Hola amig@</h1>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-12">
+                    <button type="button" class="btn btn-dark" onclick="changeName()">Cambiar nombre</button>
+                </div>
+            </div>
+        </div>
+        `
     }
 }

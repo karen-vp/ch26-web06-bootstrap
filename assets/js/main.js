@@ -8,15 +8,19 @@ const changeColorToRed = (color)=>{
 }
 
 function changeColorParagraph(element, color){
-    console.log(element);
     element.style.color = color;
 }
 
 function resetColor(){
     const paragraphs = document.getElementsByClassName('text-color');
-    console.log(paragraphs);
     for(let i=0; i<paragraphs.length; i++){
         const element = paragraphs[i];
         element.style.color = 'black';
     }
+}
+
+function changeName(){
+    const tituloNombre = document.getElementById('nombre');
+    const nuevoNombre = prompt('Escribe tu nombre');
+    tituloNombre.innerText = `Hola ${nuevoNombre}`;
 }
