@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Pacifico&family=Sigmar&display=swap');
+
 .logo-shuriken{
     width: 40px;
+}
+
+.fondo{
+    background-image: url(../img/cat-template.png);
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#nombre{
+    font-family: 'Pacifico', cursive, sans-serif;
+    font-size: 3em;
+}
+
+#titulo-principal{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
 }
