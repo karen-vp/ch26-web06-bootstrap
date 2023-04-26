@@ -18,6 +18,6 @@ function resetColor(){
 
 function changeName(){
     const tituloNombre = document.getElementById('nombre');
-    const nuevoNombre = prompt('Escribe tu nombre');
-    tituloNombre.innerText = `Hola ${nuevoNombre}`;
+    const nuevoNombre = prompt('Escribe tu nombre'); 
+    tituloNombre.innerHTML = `Hola ${nuevoNombre}`; 
 }
